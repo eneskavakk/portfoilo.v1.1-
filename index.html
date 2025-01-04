@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enes KAVAK - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <header>
+        <nav class="glass-nav">
+            <div class="logo">Enes KAVAK</div>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <canvas id="matrix"></canvas>
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Hello, I'm Enes">Hello, I'm Enes</h1>
+                <p id="role-text" class="typewriter"></p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="about reveal">
+            <h2 class="section-title" data-text="ABOUT">Free Your Mind</h2>
+            <div class="about-content">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="assets/profile.png" alt="Enes Kavak Profile Picture" class="avatar-image">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate developer who's always eager to learn and grow. I specialize in modern web technologies and software architecture.</p>
+                    <p>In my projects, I focus on creating performant and scalable solutions while prioritizing user experience.</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <span class="skill-name">Frontend</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Backend</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Database</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills reveal">
+            <h2 class="section-title" data-text="SKILLS">Choose Your Path</h2>
+            <div class="skills-container">
+                <div class="skill-pill blue-pill">
+                    <div class="pill-header">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Frontend Reality</h3>
+                    </div>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-pill red-pill">
+                    <div class="pill-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Backend Truth</h3>
+                    </div>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects reveal">
+            <h2 class="section-title" data-text="PROJECTS">Welcome to the Real World</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60" alt="Web Development Project">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>E-Commerce Platform</h3>
+                                <p>Modern e-commerce platform built with React and Node.js.</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                                <a href="#" class="project-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format&fit=crop&q=60" alt="Mobile App">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Fitness Tracking App</h3>
+                                <p>Mobile application for tracking personal fitness goals.</p>
+                                <div class="project-tech">
+                                    <span>Flutter</span>
+                                    <span>Firebase</span>
+                                    <span>Dart</span>
+                                </div>
+                                <a href="#" class="project-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60" alt="AI Project">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>AI Image Processing</h3>
+                                <p>Image processing and object detection system using AI.</p>
+                                <div class="project-tech">
+                                    <span>Python</span>
+                                    <span>TensorFlow</span>
+                                    <span>OpenCV</span>
+                                </div>
+                                <a href="#" class="project-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60" alt="Data Analysis Project">
+                        <div class="project-overlay">
+                            <div class="project-details">
+                                <h3>Data Analysis Dashboard</h3>
+                                <p>Real-time data analysis and visualization platform.</p>
+                                <div class="project-tech">
+                                    <span>D3.js</span>
+                                    <span>Vue.js</span>
+                                    <span>Express</span>
+                                </div>
+                                <a href="#" class="project-link">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact reveal">
+            <h2 class="section-title" data-text="CONTACT">Follow the White Rabbit</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:eneskvkk@gmail.com">eneskvkk@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/eneskavakk" target="_blank">github.com/eneskavakk</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/eneskavakk" target="_blank">linkedin.com/in/eneskavakk</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <div class="loading-spinner"></div>
+                    </button>
+                    <div class="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Enes KAVAK. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
